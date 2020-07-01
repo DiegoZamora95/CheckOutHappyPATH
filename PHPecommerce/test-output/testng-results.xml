@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DiegoTestSuite" duration-ms="43724" started-at="2020-06-30T18:45:11Z" finished-at="2020-06-30T18:45:54Z">
+    <groups>
+    </groups>
+    <test name="CheckoutTest" duration-ms="43724" started-at="2020-06-30T18:45:11Z" finished-at="2020-06-30T18:45:54Z">
+      <class name="AKNXS.php.ecommerce.Checkout_NonLoggedUser">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:AKNXS.php.ecommerce.Checkout_NonLoggedUser@73846619]" name="OpenBrowser" is-config="true" duration-ms="7058" started-at="2020-06-30T18:45:11Z" finished-at="2020-06-30T18:45:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="NonLoggedUser()[pri:0, instance:AKNXS.php.ecommerce.Checkout_NonLoggedUser@73846619]" name="NonLoggedUser" duration-ms="13490" started-at="2020-06-30T18:45:18Z" finished-at="2020-06-30T18:45:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NonLoggedUser -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:AKNXS.php.ecommerce.Checkout_NonLoggedUser@73846619]" name="CloseBrowser" is-config="true" duration-ms="338" started-at="2020-06-30T18:45:31Z" finished-at="2020-06-30T18:45:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- AKNXS.php.ecommerce.Checkout_NonLoggedUser -->
+      <class name="AKNXS.php.ecommerce.Checkout_LoggedUser">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:AKNXS.php.ecommerce.Checkout_LoggedUser@4bec1f0c]" name="OpenBrowser" is-config="true" duration-ms="5781" started-at="2020-06-30T18:45:31Z" finished-at="2020-06-30T18:45:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="LoggedUser()[pri:0, instance:AKNXS.php.ecommerce.Checkout_LoggedUser@4bec1f0c]" name="LoggedUser" duration-ms="16922" started-at="2020-06-30T18:45:37Z" finished-at="2020-06-30T18:45:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoggedUser -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:AKNXS.php.ecommerce.Checkout_LoggedUser@4bec1f0c]" name="CloseBrowser" is-config="true" duration-ms="96" started-at="2020-06-30T18:45:54Z" finished-at="2020-06-30T18:45:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- AKNXS.php.ecommerce.Checkout_LoggedUser -->
+    </test> <!-- CheckoutTest -->
+  </suite> <!-- DiegoTestSuite -->
+</testng-results>
