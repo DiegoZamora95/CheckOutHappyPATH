@@ -1,2 +1,1 @@
 # CheckOutHappyPATH
-# MyAccountHappyPATH
